@@ -9,14 +9,70 @@
     <body>
         <h1>Formulário de Contato</h1>
         Por favor, preencha o formulário abaixo e clique no botão Enviar<br>
-        Mensagem. Agradecemos por seu contato.<br>
+        Mensagem. Agradecemos por seu contato.<br><br>
         <fieldset>
             <legend>Dados Básicos</legend>
-            Nome: <input type="text" value="" name="nome"/><br>
+            Nome <input type="text" value="" name="nome"/><br>
             <label for="email">E-mail </label>
-            <input type="email" name="email" id="email" required
+            <input type="email" name="email" id="email"
             placeholder="seunome@dominio.com.br"><br>
-            <input type="url" name 
+            Website <input type="url"/>
+        </fieldset>
+        <fieldset>
+            <legend>Seu curso no Instituto de Computação</legend>
+                <input type="radio" name="curso" value="cc">
+                Ciência da Computação<br>
+                <input type="radio" name="curso" value="es">
+                Sistemas de Informação<br>
+                <input type="radio" name="curso" value="ec">
+                Engenharia da Computação
+        </fieldset>
+        <fieldset>
+            <legend>Assinale as linguagens já usadas por você:</legend>
+            <label for="java">Java</label>
+            <input type="checkbox" name="ling" id="java" value="java">
+            <label for="c">C</label>
+            <input type="checkbox" name="ling" id="c" value="c">
+            <label for="cpp">C++</label>
+            <input type="checkbox" name="ling" id="cpp" value="cpp">
+            <label for="perl">Perl</label>
+            <input type="checkbox" name="ling" id="perl" value="perl">
+            <label for="python">Python</label>
+            <input type="checkbox" name="ling" id="python" value="python">
+            <label for="js">Javascript</label>
+            <input type="checkbox" name="ling" id="js" value="js">
+        </fieldset>
+        <fieldset>
+            <legend>Dados Complementares</legend>
+            <label for="cor">Cor Favorita</label>
+            <input type="color" name="cor" id="cor"><br>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" name="nascimento" id="nascimento"><br>
+            <label for="ano">Ano de entrada em seu curso do IComp</label>
+            <input type="number" name="ano" min="1980" max="2020" step="1"
+            value="2020" id="ano"><br>
+            Nota para este site<br>
+        </fieldset>
+        <fieldset>
+            <legend>Àrea de atuação</legend>
+            <select name="area" id="area">
+            <option value="1">Banco de Dados</option>
+            <option value="2">Educação a Distância</option>
+            <option value="3">Engenharia de Software</option>
+            <option value="4">Otimização</option>
+            <option value="5">Programação para a Web</option>
+            <option value="6">Recuperação de Informação</option>
+            <option value="7">Redes de Computadores</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Submeta seu curriculo vitae</legend>
+            <input type="file" name="curriculo">
             </fieldset>
+        <fieldset>
+            <legend>Digite sua Mensagem</legend>
+            <textarea name="mensagem" rows="4" cols="30">Este é o valor padrão!
+            </textarea>
+        </fieldset>
     </body>
 </html>
