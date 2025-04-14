@@ -16,7 +16,7 @@
             <label for="email">E-mail </label>
             <input type="email" name="email" id="email"
             placeholder="seunome@dominio.com.br"><br>
-            Website <input type="url"/>
+            Website <input type="url" value="http://"/>
         </fieldset>
         <fieldset>
             <legend>Seu curso no Instituto de Computação</legend>
@@ -51,7 +51,9 @@
             <label for="ano">Ano de entrada em seu curso do IComp</label>
             <input type="number" name="ano" min="1980" max="2020" step="1"
             value="2020" id="ano"><br>
-            Nota para este site<br>
+            <div class="slidecontainer">
+                Nota para este site <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Àrea de atuação</legend>
