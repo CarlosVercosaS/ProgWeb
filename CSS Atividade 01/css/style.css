@@ -1,0 +1,8 @@
+.p {
+background-color: lightgray;
+border: 10px solid black;
+border-top-left-radius: 16px;
+border-top-right-radius: 48px;
+border-bottom-left-radius: 48px;
+border-bottom-right-radius: 16px;
+}
