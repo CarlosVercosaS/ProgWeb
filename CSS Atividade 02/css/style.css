@@ -1,0 +1,42 @@
+div.bloco{
+    border: 7px solid #cf853d;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 20%;
+    background: rgba(0, 0, 0, 0.7);
+  } 
+  
+  .titulo,.info{
+    color: white;
+    text-align: center;
+  }
+  
+  .titulo{
+    padding: 0px 7px;
+  }
+  
+  .info{
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  body{
+    background-image: url('/home/vercosa/Área de Trabalho/Faculdade 2025/PW/CSS Atividade 02/The_Ring_Nebula.JPG');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  /* - **`height: 100vh;`**   */
+  /*    Essa propriedade define a altura do elemento (neste caso, o `body`) como 100% da altura da **janela do navegador**.   */
+  /*    - `vh` significa "viewport height", ou seja, a altura da tela visível do usuário.   */
+  /*    - `100vh` faz com que o elemento ocupe **toda a altura** disponível.   */
+  /**/
+  /* - **`margin: 0;`**   */
+  /*    A propriedade `margin` define o espaço externo ao redor de um elemento.   */
+  /*    - `margin: 0;` significa que **não haverá margem externa**, ou seja, o elemento ficará encostado diretamente na borda da página.   */
+  /*    - Isso é útil para evitar espaçamentos indesejados que possam ser adicionados por padrões do navegador. */
+    height: 100vh;
+    margin: 0;
+  }
+  
