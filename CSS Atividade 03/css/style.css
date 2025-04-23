@@ -1,0 +1,26 @@
+div.blue { width:100px; height:200px; background-color:blue; }
+div.yellow { 
+    /*embutido*/
+    width:100px; height:150px; background-color:yellow;
+
+    /*minha parte*/
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+ }
+div.red { 
+    width:100px; height:150px; background-color:red; 
+
+    /*minha parte*/
+    position: relative;
+    left: 200px;
+    bottom: 350px;
+}
+div.green { 
+    width:200px; height:50px; background-color:green; 
+
+    /*minha parte*/
+    position: relative;
+    left: 100px;
+    bottom: 350px;
+}
