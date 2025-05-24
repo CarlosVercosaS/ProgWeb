@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="space"></div>
+    <div id="hud">
+  <div id="score">Score: 00000</div>
+  <div id="lives">
+    <img src="assets/png/life.png" class="life">
+    <img src="assets/png/life.png" class="life">
+    <img src="assets/png/life.png" class="life">
+  </div>
+</div>
+<div id="game-over" style="display: none;">
+  <h1>Game Over</h1>
+  <button id="restart">Restart</button>
+</div>
+<div id="pause" style="display: none;">
+  <h1>Pause</h1>
+</div>
+    <script type="module" src="js/game.js"></script>
+  </body>
+</html>
